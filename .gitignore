@@ -297,4 +297,4 @@ __pycache__/
 *.ps
 *.csv
 *.dat
-bisector_edges_*
+**/bisector_edges_*
