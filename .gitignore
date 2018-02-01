@@ -286,3 +286,15 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# Data and results files
+*.grd
+*.irap
+*.png
+*.xy
+*.poly
+*.bln
+*.ps
+*.csv
+*.dat
+bisector_edges_*

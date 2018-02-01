@@ -1,0 +1,104 @@
+"General"
+{
+"SccProjectName" = "SAK"
+"SccLocalPath" = "SAK"
+"SccAuxPath" = "SAK"
+"SccProvider" = "SAK"
+"ProjectIdGuid" = "{36AD5060-064F-431E-9D5F-DFF6CEF26EC4}"
+}
+"Configurations"
+{
+    "Debug|Win32"
+    {
+    "ProjectType" = "DLL"
+    "OptLevel" = "Off"
+    "StrongNamingLevel" = "None"
+    "OutputPath" = ""
+    "SearchPath" = "-r ..\\Math\\bin\\Debug\\Numeric.dll"
+    "StrongNameFile" = ""
+    "OutputBase" = ""
+    "CustomCommandLine" = ""
+    "CustomCompiler" = ""
+    "DebugCheck" = "TRUE"
+    "CustomCompilationCheck" = "FALSE"
+    "DebugStartMode" = "0"
+    "StartApp" = ""
+    "StartAppPath" = ""
+    "CustomStartupArguments" = ""
+    }
+    "Release|Win32"
+    {
+    "ProjectType" = "EXE"
+    "OptLevel" = "3"
+    "StrongNamingLevel" = "None"
+    "OutputPath" = ""
+    "SearchPath" = ""
+    "StrongNameFile" = ""
+    "OutputBase" = ""
+    "CustomCommandLine" = ""
+    "CustomCompiler" = ""
+    "DebugCheck" = "FALSE"
+    "CustomCompilationCheck" = "FALSE"
+    "DebugStartMode" = "0"
+    "StartApp" = ""
+    "StartAppPath" = ""
+    "CustomStartupArguments" = ""
+    }
+}
+"Files"
+{
+    "utility.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "binaryimage.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "integerimage.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "structuringelement.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "structuringelementutils.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "disjointset.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "hitandmiss.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "morphology.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "morphology.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "analysis.fsi"
+    {
+    "ProjRelPath" = "T"
+    }
+    "analysis.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test.fs"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

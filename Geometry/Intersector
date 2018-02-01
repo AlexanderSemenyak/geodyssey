@@ -1,0 +1,109 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+using Numeric;
+
+namespace Geometry
+{
+    static class Intersector
+    {
+        public enum Intersection
+        {
+            DoIntersect,
+            DontIntersect,
+            Collinear
+        }
+
+        /// <summary>
+        /// Determine whether two Ray2Ds intersect, and if so the location of the
+        /// intersection point.
+        /// </summary>
+        /// <param name="ray1">The first Ray2D to be intersected</param>
+        /// <param name="ray2">The second Ray2D to be intersected</param>
+        /// <returns>
+        /// If the rays intersect a Point2D containing the location of the intersection. If
+        /// the rays are collinear or do not intersect, null is returned.
+        /// </returns>
+        public static Point2D? Intersect(Ray2D ray1, Ray2D ray2)
+        {
+            Point2D result;
+            Intersection state = Intersect(ray1, ray2, out result);
+            if (state == Intersection.DoIntersect)
+            {
+                return result;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Determine whether two Ray2Ds intersect, and if they do return the location
+        /// of the intersection.
+        /// </summary>
+        /// <param name="ray1">The first Ray2D to be intersected.</param>
+        /// <param name="ray2">The second Ray2D to be intersected</param>
+        /// <param name="result">The location of the intersection point if the rays intersect, otherwise an undefined value.</param>
+        /// <returns>DoIntersect, DontIntersect or Collinear.</returns>
+        public static Intersection Intersect(Ray2D ray1, Ray2D ray2, out Point2D result)
+        {
+            // TODO Algorithm for ray-ray intersection here.
+
+            Intersection supportingLinesIntersection = Intersect(ray1.SupportingLine, ray2.SupportingLine, out result);
+            if (supportingLinesIntersection != Intersection.DoIntersect)
+            {
+                return supportingLinesIntersection;
+            }
+
+            // The supporting lines intersect
+            Direction2D fromSource1 = new Direction2D(ray1.Source, result);
+            bool inFront1 = fromSource1.Vector.Dot(ray1.Direction.Vector) > 0.0;
+
+            Direction2D fromSource2 = new Direction2D(ray2.Source, result);
+            bool inFront2 = fromSource2.Vector.Dot(ray2.Direction.Vector) > 0.0;
+
+            return (inFront1 && inFront2) ? Intersection.DoIntersect : Intersection.DontIntersect;
+        }
+
+        /// <summary>
+        /// Determine whether two Line2Ds intersect, and if so the location of the intersection.
+        /// </summary>
+        /// <param name="line1">The first Line2D to be intersected.</param>
+        /// <param name="line2">The second Line2D to be intersected.</param>
+        /// <returns>The location of the intersection if the lines intersect, or null if the lines are collinear or parallel.</returns>
+        public static Point2D? Intersect(Line2D line1, Line2D line2)
+        {
+            Point2D result;
+            Intersection state = Intersect(line1, line2, out result);
+            if (state == Intersection.DoIntersect)
+            {
+                return result;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Determine whether two Line2Ds intersect, and if so the location of the intersection.
+        /// </summary>
+        /// <param name="line1">The first Line2D to be intersected.</param>
+        /// <param name="line2">The second Line2D to be intersected.</param>
+        /// <param name="result">The location of the intersection if the lines intersect, otherwise an undefined value.</param>
+        /// <returns>DoIntersect, DontIntersect or Collinear.</returns>
+        public static Intersection Intersect(Line2D line1, Line2D line2, out Point2D result)
+        {
+            // Compute the determinant
+            double denominator = line1.A * line2.B - line1.B * line2.A;
+
+            if (denominator == 0.0)
+            {
+                // TODO: Need to identify collinear lines
+                result = new Point2D();
+                return Intersection.DontIntersect;
+            }
+
+            double xNumerator = line1.B * line2.C - line2.B * line1.C;
+            double yNumerator = line2.A * line1.C - line1.A * line2.C;
+            result = new Point2D(xNumerator / denominator, yNumerator / denominator);
+            return Intersection.DoIntersect;
+        }        
+    }
+}

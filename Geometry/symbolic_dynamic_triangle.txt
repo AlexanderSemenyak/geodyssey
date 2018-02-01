@@ -1,0 +1,180 @@
+Windows PowerShell
+Copyright (C) 2006 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\rjs> python
+Python 2.5.2 (r252:60911, Feb 21 2008, 13:11:45) [MSC v.1310 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from sympy import *
+>>> p0x = Symbol('p0x')
+>>> pvx = Symbol('pvx')
+>>> p0y = Symbol('p0y')
+>>> pvy = Symbol('pvy')
+>>> px = p0x + pvx
+>>> px
+p0x + pvx
+>>> px.expand()
+p0x + pvx
+>>> t = Symbol('t')
+>>> px = p0x + t * pvx
+>>> px
+p0x + pvx*t
+>>> q0x = Symbol('q0x')
+>>> qvx = Symbol('qvx')
+>>> q0y = Symbol('q0y')
+>>> qvy = Symbol('qvy')
+>>> qx = q0x + t * qvx
+>>> qy = q0y + t * qvy
+>>> py = p0y + t * pvy
+>>>
+>>>
+>>>
+>>> px
+p0x + pvx*t
+>>> py
+p0y + pvy*t
+>>> qx
+q0x + qvx*t
+>>> qy
+q0y + qvy*t
+>>> r0x = Symbol('r0x')
+>>> r0y = Symbol('r0y')
+>>> rvx = Symbol('rvx')
+>>> rvy = Symbol('rvy')
+>>> rx = r0x + t * rvx
+>>> ry = r0y + t * rvy
+>>>
+>>> px
+p0x + pvx*t
+>>> py
+p0y + pvy*t
+>>> qx
+q0x + qvx*t
+>>> qy
+q0y + qvy*t
+>>> rx
+r0x + rvx*t
+>>> ry
+r0y + rvy*t
+>>> from __future__ import division
+>>>
+>>> a = ((px-rx)*(qy-ry) - (qx-rx)*(py-ry))/2
+>>> a
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t)/2 - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)/2
+>>> solve(a, t)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\solvers\solvers.py", line 87, in solve
+    result = roots(poly, cubics=True, quartics=True).keys()
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\rootfinding.py", line 257, in roots
+    for i, h in enumerate(poly_sqf(g)):
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\algorithms.py", line 740, in poly_sqf
+    g = poly_gcd(f, h)
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\algorithms.py", line 470, in poly_gcd
+    h = poly_subresultants(f, g)[-1]
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\algorithms.py", line 693, in poly_subresultants
+    h = poly_pdiv(f, g)[1]
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\algorithms.py", line 144, in poly_pdiv
+    r = r.mul_term(coeff)-g.mul_term(*T)
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\polynomial.py", line 1831, in mul_term
+    coeffs[i] = Poly.cancel(coeff)
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\polys\polynomial.py", line 599, in cancel
+    numer, denom = f.as_numer_denom()
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\core\mul.py", line 458, in as_numer_denom
+    n,d = t.as_numer_denom()
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\core\add.py", line 213, in as_numer_denom
+    return Add(*[Mul(*(denoms[:i]+[numers[i]]+denoms[i+1:])) for i in r]),Mul(*denoms)
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\core\cache.py", line 85, in wrapper
+    func_cache_it_cache[k] = r = func(*args, **kw_args)
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\core\operations.py", line 32, in __new__
+    c_part, nc_part, order_symbols = cls.flatten(map(_sympify, args))
+  File "C:\Program Files (x86)\Python25\Lib\site-packages\sympy\core\mul.py", line 88, in flatten
+    coeff *= o
+KeyboardInterrupt
+>>> t
+t
+>>> a
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t)/2 - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)/2
+>>> a.expand()
+p0x*q0y/2 + p0y*r0x/2 + q0x*r0y/2 - p0x*r0y/2 - p0y*q0x/2 - q0y*r0x/2 + p0x*qvy*t/2 + p0y*rvx*t/2 + pvx*q0y*t/2 + pvy*r0
+x*t/2 + q0x*rvy*t/2 + qvx*r0y*t/2 - p0x*rvy*t/2 - p0y*qvx*t/2 - pvx*r0y*t/2 - pvy*q0x*t/2 - q0y*rvx*t/2 - qvy*r0x*t/2 +
+pvx*qvy*t**2/2 + pvy*rvx*t**2/2 + qvx*rvy*t**2/2 - pvx*rvy*t**2/2 - pvy*qvx*t**2/2 - qvy*rvx*t**2/2
+>>> simplify(a)
+p0x*q0y/2 + p0y*r0x/2 + q0x*r0y/2 - p0x*r0y/2 - p0y*q0x/2 - q0y*r0x/2 + p0x*qvy*t/2 + p0y*rvx*t/2 + pvx*q0y*t/2 + pvy*r0
+x*t/2 + q0x*rvy*t/2 + qvx*r0y*t/2 - p0x*rvy*t/2 - p0y*qvx*t/2 - pvx*r0y*t/2 - pvy*q0x*t/2 - q0y*rvx*t/2 - qvy*r0x*t/2 +
+pvx*qvy*t**2/2 + pvy*rvx*t**2/2 + qvx*rvy*t**2/2 - pvx*rvy*t**2/2 - pvy*qvx*t**2/2 - qvy*rvx*t**2/2
+>>> a
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t)/2 - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)/2
+>>> solve([Eq(a, 0)
+...
+...
+KeyboardInterrupt
+>>>
+>>>
+>>> A = a * 2
+>>> A
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t) - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)
+>>> simplify(A)
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> A.expand()
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> collect(A, t**2)
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t) - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)
+>>> A
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t) - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)
+>>> collect(A.expand(), t**2)
+p0x*q0y + p0y*r0x + q0x*r0y + t**2*(pvx*qvy + pvy*rvx + qvx*rvy - pvx*rvy - pvy*qvx - qvy*rvx) + (t**2)**(1/2)*(p0x*qvy
++ p0y*rvx + pvx*q0y + pvy*r0x + q0x*rvy + qvx*r0y - p0x*rvy - p0y*qvx - pvx*r0y - pvy*q0x - q0y*rvx - qvy*r0x) - p0x*r0y
+ - p0y*q0x - q0y*r0x
+>>> collect(A.expand(), [t**2, t])
+p0x*q0y + p0y*r0x + q0x*r0y + t**2*(pvx*qvy + pvy*rvx + qvx*rvy - pvx*rvy - pvy*qvx - qvy*rvx) + (t**2)**(1/2)*(p0x*qvy
++ p0y*rvx + pvx*q0y + pvy*r0x + q0x*rvy + qvx*r0y - p0x*rvy - p0y*qvx - pvx*r0y - pvy*q0x - q0y*rvx - qvy*r0x) - p0x*r0y
+ - p0y*q0x - q0y*r0x
+>>> A.expand()
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> collect(A.expand(), [t])
+p0x*q0y + p0y*r0x + q0x*r0y + t*(p0x*qvy + p0y*rvx + pvx*q0y + pvy*r0x + q0x*rvy + qvx*r0y - p0x*rvy - p0y*qvx - pvx*r0y
+ - pvy*q0x - q0y*rvx - qvy*r0x) + t**2*(pvx*qvy + pvy*rvx + qvx*rvy - pvx*rvy - pvy*qvx - qvy*rvx) - p0x*r0y - p0y*q0x -
+ q0y*r0x
+>>> A.coeff()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: coeff() takes exactly 2 arguments (1 given)
+>>> A.coeff(t)
+p0x*qvy + p0y*rvx + pvx*q0y + pvy*r0x + q0x*rvy + qvx*r0y - p0x*rvy - p0y*qvx - pvx*r0y - pvy*q0x - q0y*rvx - qvy*r0x
+>>> A.coeff(t**2)
+pvx*qvy + pvy*rvx + qvx*rvy - pvx*rvy - pvy*qvx - qvy*rvx
+>>> A.coeff(1)
+>>> A.coeff(0)
+>>> A.simplify(t)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'Add' object has no attribute 'simplify'
+>>> simplify(A, t)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: simplify() takes exactly 1 argument (2 given)
+>>> simplify(A)
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> together(A)
+(q0y - r0y + qvy*t - rvy*t)*(p0x - r0x + pvx*t - rvx*t) - (p0y - r0y + pvy*t - rvy*t)*(q0x - r0x + qvx*t - rvx*t)
+>>> together(A.expand())
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> powsimp(A.expand())
+p0x*q0y + p0y*r0x + q0x*r0y - p0x*r0y - p0y*q0x - q0y*r0x + p0x*qvy*t + p0y*rvx*t + pvx*q0y*t + pvy*r0x*t + q0x*rvy*t +
+qvx*r0y*t - p0x*rvy*t - p0y*qvx*t - pvx*r0y*t - pvy*q0x*t - q0y*rvx*t - qvy*r0x*t + pvx*qvy*t**2 + pvy*rvx*t**2 + qvx*rv
+y*t**2 - pvx*rvy*t**2 - pvy*qvx*t**2 - qvy*rvx*t**2
+>>> collect(A.expand(), t)
+p0x*q0y + p0y*r0x + q0x*r0y + t*(p0x*qvy + p0y*rvx + pvx*q0y + pvy*r0x + q0x*rvy + qvx*r0y - p0x*rvy - p0y*qvx - pvx*r0y
+ - pvy*q0x - q0y*rvx - qvy*r0x) + t**2*(pvx*qvy + pvy*rvx + qvx*rvy - pvx*rvy - pvy*qvx - qvy*rvx) - p0x*r0y - p0y*q0x -
+ q0y*r0x
+>>>

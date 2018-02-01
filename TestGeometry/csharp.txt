@@ -1,0 +1,1433 @@
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = Geometry.RedBlue.Bundle
+  bTree.Right = 
+foreach sweepEvent
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+B
+C
+Witnessed = false
+Witnessed = false
+E
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+bRedBeq.PurpleUp
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+N
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+i = 0
+rBundleTree =
+Top = 
+Bottom = 
+bTree = ()
+
+Bundle.Bottom = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bTree.Root    = Geometry.RedBlue.Bundle
+  bTree.Left  = 
+  bTree.Right = 
+Segment.Up = 
+Segment.Down = Geometry.RedBlue.Segment
+Segment.Up = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+AddEndIntersections
+AddStartIntersections
+AddStartIntersections
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) ) )
+
+do
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle ( () Geometry.RedBlue.Bundle () ) ) )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+bRedTeq.PurpleDown
+Witnessed = false
+Witnessed = false
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+G
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+bRedBeq.PurpleUp
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+Witnessed = false
+Witnessed = false
+I
+J
+Witnessed = false
+Witnessed = false
+L
+Segment.Up = Geometry.RedBlue.Segment
+Segment.Down = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Witnessed = false
+Witnessed = false
+plusTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( () Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+Bundle.Bottom = 
+Bundle.Top = 
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Top = Geometry.RedBlue.Segment
+Bundle.Bottom = Geometry.RedBlue.Segment
+Segment.Down = 
+Segment.Up = 
+rBundleTree =
+Top = Geometry.RedBlue.Bundle
+Bottom = Geometry.RedBlue.Bundle
+bTree = ( ( () Geometry.RedBlue.Bundle () ) Geometry.RedBlue.Bundle () )
+
+i = 0
+i = 1
+i = 2
+
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+at Geometry.RedBlue.RedBlueIntersector.FindContSegs(BundleTree oldEqTree, Segment[] contSegs, FPoint sweepEvent) in RedBlueIntersector.cs: line 364
+at Geometry.RedBlue.RedBlueIntersector.CalcIntersections() in RedBlueIntersector.cs: line 263
+at Geometry.RedBlue.RedBlueIntersector..ctor(IEnumerable`1 red, IEnumerable`1 blue) in RedBlueIntersector.cs: line 41
+at Geometry.RedBlueIntersectorTests.IntersectingGrid10() in RedBlueIntersectorTests.cs: line 200 
