@@ -22,7 +22,7 @@ namespace Loaders.plugins.com.slb.charisma
         /// Pattern to skip Charsima comment, Charsima history lines, and blank lines
         /// </summary>
         internal static readonly Regex commentBlanksPattern = new Regex(@"^(\s*|\s*#.*)");
-        // Surfaces have a header: #garnpick1-1 garn_topare-1 ...
+        // Surfaces have a header: #foo1-1 foo-1 ...
         internal static readonly Regex surfaceRegex = new Regex(@"^\s*#\s*(\w*-\d+\s*)+");
         private static string entityType = null;
         #endregion
