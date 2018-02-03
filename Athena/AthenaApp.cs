@@ -13,9 +13,9 @@ namespace Athena
 {
     class AthenaApp
     {
-        // usage : Training: C:\Users\rjs\Documents\dev\p4workspace\sandbox\geodyssey\proto\Athena\testdata\garn.irap
-        //         Expected: C:\Users\rjs\Documents\dev\p4workspace\sandbox\geodyssey\proto\Athena\testdata\heidrun_pf_triangulated.grd
-        //         Grid for analysis: F:\sapere_aude\data\IrapClassic\grid_surface\ASCII\RMS\Haltenbanken\Tyrihans\garn.irap
+        // usage : Training: C:\Users\rjs\Documents\dev\p4workspace\sandbox\geodyssey\proto\Athena\testdata\training.irap
+        //         Expected: C:\Users\rjs\Documents\dev\p4workspace\sandbox\geodyssey\proto\Athena\testdata\expected.grd
+        //         Grid for analysis: F:\sapere_aude\data\IrapClassic\grid_surface\ASCII\RMS\analysis.irap
         static int Main(string[] args)
         {
             // Get a URI from the command line argument
