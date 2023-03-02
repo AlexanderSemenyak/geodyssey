@@ -1,6 +1,12 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1CC3F1FA-61D4-4B14-8511-B64EB8961D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleTests", "ModuleTests", "{7390155D-A592-45F1-8268-1E9B1FB38433}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodyssey", "Geodyssey\Geodyssey.csproj", "{808EE761-FAB0-4EAC-BA35-A625C1B7FA8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loaders", "Loaders\Loaders.csproj", "{7621F7AA-603B-4B19-AF15-7EB0A40EB037}"
@@ -35,87 +41,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGeometry", "TestGeometry\TestGeometry.csproj", "{BAFD1DD5-47B8-4F7C-9536-50906DE73F47}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1CC3F1FA-61D4-4B14-8511-B64EB8961D51}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleTests", "ModuleTests", "{7390155D-A592-45F1-8268-1E9B1FB38433}"
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BitImage", "BitImage\BitImage.fsproj", "{701F7E80-5F21-4496-BF92-57C902F21A15}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestBitImage", "TestBitImage\TestBitImage.fsproj", "{22C85026-C2FB-4B34-827C-493C172A3D1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artemis", "Artemis\Artemis.csproj", "{621C20A9-0D49-4514-A99F-34BA640576C9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Troschuetz.Random", "Troschuetz.Random\src\Troschuetz.Random\Troschuetz.Random.csproj", "{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}"
+EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 21
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Geodyssey\\Geodyssey.csproj
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = Geodyssey\\
-		SccProjectUniqueName2 = Loaders\\Loaders.csproj
-		SccLocalPath2 = .
-		SccProjectFilePathRelativizedFromConnection2 = Loaders\\
-		SccProjectUniqueName3 = LoaderTest\\LoaderTest.csproj
-		SccProjectTopLevelParentUniqueName3 = Geodyssey.sln
-		SccLocalPath3 = .
-		SccProjectFilePathRelativizedFromConnection3 = LoaderTest\\
-		SccProjectUniqueName4 = Utility\\Utility.csproj
-		SccLocalPath4 = .
-		SccProjectFilePathRelativizedFromConnection4 = Utility\\
-		SccProjectUniqueName5 = Builders\\Builders.csproj
-		SccLocalPath5 = .
-		SccProjectFilePathRelativizedFromConnection5 = Builders\\
-		SccProjectUniqueName6 = ClassLibrary1\\Model.csproj
-		SccLocalPath6 = .
-		SccProjectFilePathRelativizedFromConnection6 = ClassLibrary1\\
-		SccProjectUniqueName7 = Math\\Numeric.csproj
-		SccLocalPath7 = .
-		SccProjectFilePathRelativizedFromConnection7 = Math\\
-		SccProjectUniqueName8 = Analysis\\Analysis.csproj
-		SccLocalPath8 = .
-		SccProjectFilePathRelativizedFromConnection8 = Analysis\\
-		SccProjectUniqueName9 = Athena\\Athena.csproj
-		SccLocalPath9 = .
-		SccProjectFilePathRelativizedFromConnection9 = Athena\\
-		SccProjectUniqueName10 = Image\\Image.csproj
-		SccLocalPath10 = .
-		SccProjectFilePathRelativizedFromConnection10 = Image\\
-		SccProjectUniqueName11 = Apollo\\Apollo.csproj
-		SccLocalPath11 = .
-		SccProjectFilePathRelativizedFromConnection11 = Apollo\\
-		SccProjectUniqueName12 = FaultMapper\\FaultMapper.csproj
-		SccLocalPath12 = .
-		SccProjectFilePathRelativizedFromConnection12 = FaultMapper\\
-		SccProjectUniqueName13 = TestUtility\\TestUtility.csproj
-		SccProjectTopLevelParentUniqueName13 = Geodyssey.sln
-		SccLocalPath13 = .
-		SccProjectFilePathRelativizedFromConnection13 = TestUtility\\
-		SccProjectUniqueName14 = TestFaultMapper\\TestFaultMapper.csproj
-		SccProjectTopLevelParentUniqueName14 = Geodyssey.sln
-		SccLocalPath14 = .
-		SccProjectFilePathRelativizedFromConnection14 = TestFaultMapper\\
-		SccProjectUniqueName15 = TestNumeric\\TestNumeric.csproj
-		SccProjectTopLevelParentUniqueName15 = Geodyssey.sln
-		SccLocalPath15 = .
-		SccProjectFilePathRelativizedFromConnection15 = TestNumeric\\
-		SccProjectUniqueName16 = Geometry\\Geometry.csproj
-		SccLocalPath16 = .
-		SccProjectFilePathRelativizedFromConnection16 = Geometry\\
-		SccProjectUniqueName17 = TestGeometry\\TestGeometry.csproj
-		SccProjectTopLevelParentUniqueName17 = Geodyssey.sln
-		SccLocalPath17 = .
-		SccProjectFilePathRelativizedFromConnection17 = TestGeometry\\
-		SccProjectUniqueName18 = BitImage\\BitImage.fsproj
-		SccLocalPath18 = .
-		SccProjectFilePathRelativizedFromConnection18 = BitImage\\
-		SccProjectUniqueName19 = TestBitImage\\TestBitImage.fsproj
-		SccProjectTopLevelParentUniqueName19 = Geodyssey.sln
-		SccLocalPath19 = .
-		SccProjectFilePathRelativizedFromConnection19 = TestBitImage\\
-		SccProjectUniqueName20 = Artemis\\Artemis.csproj
-		SccLocalPath20 = .
-		SccProjectFilePathRelativizedFromConnection20 = Artemis\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -325,16 +259,31 @@ Global
 		{621C20A9-0D49-4514-A99F-34BA640576C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{621C20A9-0D49-4514-A99F-34BA640576C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{621C20A9-0D49-4514-A99F-34BA640576C9}.Release|Win32.ActiveCfg = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Debug|Win32.Build.0 = Debug|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Win32.ActiveCfg = Release|Any CPU
+		{D3EF7A59-8960-4EE3-AFCF-06F51A12EAB1}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47121CB7-6264-4889-9427-DD7C59D3883D} = {7390155D-A592-45F1-8268-1E9B1FB38433}
+		{4D5E4F4C-6C8E-47D9-8F8C-14C36274B127} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
 		{C7B5C8E9-C5FB-4CE7-98E5-6C62F88F0F74} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
 		{C40F6918-334E-4147-B8A6-10C1418DB233} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
 		{BAFD1DD5-47B8-4F7C-9536-50906DE73F47} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
-		{4D5E4F4C-6C8E-47D9-8F8C-14C36274B127} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
 		{22C85026-C2FB-4B34-827C-493C172A3D1E} = {1CC3F1FA-61D4-4B14-8511-B64EB8961D51}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52534100-7486-49D0-9BB4-46FD3CE7E021}
 	EndGlobalSection
 EndGlobal

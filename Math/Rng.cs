@@ -12,6 +12,9 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using Wintellect.PowerCollections;
 using Troschuetz.Random;
+using Troschuetz.Random.Distributions.Continuous;
+using Troschuetz.Random.Distributions.Discrete;
+using Troschuetz.Random.Generators;
 
 namespace Numeric
 {
